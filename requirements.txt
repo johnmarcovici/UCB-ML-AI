@@ -1,0 +1,9 @@
+jupyter
+pandas
+openpyxl
+sklearn
+matplotlib
+scipy
+seaborn
+plotly
+kaleido
