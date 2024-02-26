@@ -1,5 +1,5 @@
 # UCB-AI-ML
-Demo Notebooks and Code for UCB Professional Certificate in AI/ML
+Demo Notebooks and Code for UCB Professional Certificate in ML/AI
 
 ## Setup
 ### Create a virtual environment  
