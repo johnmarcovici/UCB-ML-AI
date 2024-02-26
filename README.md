@@ -1,4 +1,4 @@
-# UCB-AI-ML
+# UCB-ML/AI
 Demo Notebooks and Code for UCB Professional Certificate in ML/AI
 
 ## Setup
