@@ -19,6 +19,9 @@ I also performed a limited set of multi-variable analyses, such as combining bot
 Another multi-variable experiment I considered was education, monthly coffee house visits, and marital status, and found that single people who had attended college (with or without obtaining a degree) and visited coffee houses twice in the last month accepted about 66% of coupons.
 
 ### Who Didn't Accepted Coupons to Coffee Houses?
+When people were headed home, and could not redeem the coupon on the way (to home), the acceptance rate was low at about 30% or less, for any relationship status. This suggests that when people are heading home, they are really don't want to turn around to use a coupon
+
+Surprisingly, 42% of people under 21 accepted coupons to bars. Maybe the bars sell food too.
 
 ## Future Work
 The limited multi-variable analysis revealed the need for multi-outcome, multi-variable analysis. For example, instead of analyzing just "occupation is healthcare worker" and "visited a coffee house twice last month" we need to look at more complex outcomes, such as "occupation is healthcare worker or student or unemployed" and "visited a coffee house at least twice in the last month" and "age is between 20-40". To do so requires an update to the existing approach wherein multiple outcomes per categorical variable are considered.
