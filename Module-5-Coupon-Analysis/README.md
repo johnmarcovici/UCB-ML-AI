@@ -36,10 +36,10 @@ As the specificity of these experiements increases, the sample size per experime
 Considering a Driver's Destination, Gender, Passengers in the Car, and if the Coupon is Redeemable En Route
 
 #### Without Regard to Age
-Female drivers with no passengers in the car that were heading home or to work and could not redeem the coupon en route accepted only about 29% of the offered coupons
+Female drivers with no passengers in the car that were heading home or to work and could not redeem the coupon en route accepted about 29% of the offered coupons
 
 #### Considering Drivers at Least 45 Years of Age
-Males or females aged 45 and up driving to work with no passengers that could not redeem the coupon en route accepted about 19% of the offered coupons
+Males or females aged 45 and up driving to work with no passengers that could not redeem the coupon en route accepted only about 19% of the offered coupons
 
 ## Future Work
 The multi-variable analysis performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
