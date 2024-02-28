@@ -1,4 +1,4 @@
-# Module 5 Practical Assignment on Coupon Acceptance Analysis
+# Coupon Acceptance Analysis
 This module analyzes data provided in the data/coupons.csv file for trends in terms of who accepts and who does not accept coupons to a series of establishments. The data set addresses many establishment types (coffee houses, bars, restaurants) but I primarily focused on coffee houses.
 
 ## Setup
