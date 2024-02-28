@@ -15,7 +15,7 @@ python -m venv venv && source ./venv/bin/activate
 pip3 install -r requirements.txt
 ```
 ## How to Run
-The notebook to run is ./practical_application_assignment_5.1.ipynb
+The notebook to run is ./coupon_acceptance_analysis.ipynb
 
 ## Summary of Findings
 ### Who Accepted Coupons to Coffee Houses?
