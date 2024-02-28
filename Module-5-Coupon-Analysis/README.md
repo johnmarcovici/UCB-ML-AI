@@ -20,7 +20,7 @@ Another multi-variable experiment I considered was education, monthly coffee hou
 
 ### Who Didn't Accepted Coupons to Coffee Houses?
 
-### Future Work
+## Future Work
 The limited multi-variable analysis revealed the need for multi-outcome, multi-variable analysis. For example, instead of analyzing just "occupation is healthcare worker" and "visited a coffee house twice last month" we need to look at more complex outcomes, such as "occupation is healthcare worker or student or unemployed" and "visited a coffee house at least twice in the last month" and "age is between 20-40". To do so requires an update to the existing approach wherein multiple outcomes per categorical variable are considered.
 
 
