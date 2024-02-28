@@ -1,7 +1,7 @@
 # Coupon Acceptance Analysis
 This module analyzes data provided by the *UCI Machine Learning* repository to understand who accepts coupons offered for various eating & drinking establishments. The data set includes coupon offerings for coffee houses, bars, and restaurants but I primarily focused on coffee houses.
 
-## How to Run
+## What to Run
 Run the Jupyter notebook called coupon_acceptance_analysis.ipynb located [here](./coupon_acceptance_analysis.ipynb).
 
 ## Summary of Findings
@@ -33,8 +33,8 @@ Single people who had attended college (with or without obtaining a degree) and 
 As the specificity of these experiements increases, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
 
 ### Who Didn't Accept Coupons to Coffee Houses?
-##### By Driver's Destination, Marital Status, and Coupon Redeemable En Route
-When a driver's destination was home and they could not redeem the coupon en route, the acceptance rate was low at about 30% or less, for any relationship status.
+##### Considering a Driver's Destination, Gender, Passengers in the Car, and if the Coupon is Redeemable En Route
+Female drivers with no passengers in the car that were heading home or to work and could not redeem the coupon en route accepted only about 29% of the offered coupons
 
 ## Future Work
 The multi-variable analysis performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
