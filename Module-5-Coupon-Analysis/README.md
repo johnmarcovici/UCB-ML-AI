@@ -27,7 +27,9 @@ Other single-variable analyses were performed. For example, when looking at acce
 
 Looking at acceptance rate vs. average annual income revealed no consistent trend - acceptance rates over 50% were seen at both extrema as well as the center of the income scale.
 
-I also performed a limited set of multi-variable analysis, such as
+I also performed a limited set of multi-variable analysis, such as combining both occupation and number of monthly visits to coffee houses. I found that healthcare workers who visited a coffee house 2 times in the last months accepted 90% of coupons, and those who visit 2 or 6 times accepted 92% of coupons. However, as the specificity of these experiments grows, the number of results over which this rate is computed drops. In this latter example just 36 records were considered, of which 92% accepted the coupon.
+
+Another multi-variable experiment I considered was education, monthly coffee house visits, and marital status, and found that single people who had attended college and visited coffee houses twice in the last month accepted about 66% of coupons.
 
 ### Who Didn't Accepted Coupons to Coffee Houses?
 
