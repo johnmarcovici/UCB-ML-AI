@@ -7,7 +7,7 @@ The notebook to run is ./coupon_acceptance_analysis.ipynb
 ## Summary of Findings
 ### Who Accepted Coupons to Coffee Houses?
 #### Single-Variable Analyses
-I looked at acceptance rates as a function of several single variables at a time.
+I looked at acceptance rates as a function of several single variables.
 
 ##### By Occupation
 The analysis showed that healthcare workers and those in buildings & maintenance accepted coffee coupons at a rate of 76%.
