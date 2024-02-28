@@ -1,5 +1,5 @@
 # UCB-ML/AI
-Demo Notebooks and Code for UC Berkeley's Professional Certificate in ML/AI  
+Demo Notebooks and Code for UC Berkeley's Professional Certificate in ML/AI:  
 https://exec-ed.berkeley.edu/professional-certificate-in-machine-learning-and-artificial-intelligence/
 
 ## Setup
