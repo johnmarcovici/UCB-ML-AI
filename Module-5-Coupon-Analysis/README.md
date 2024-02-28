@@ -27,7 +27,7 @@ I also performed a limited set of multi-variable analyses.
 - And those who visited 2 or 6 times accepted 92% of coupons  
 
 ##### By Education, Number of Visits to Coffee Houses in the Last Month, and Marital Status
-Another multi-variable experiment I considered was education, monthly coffee house visits, and marital status, and found that single people who had attended college (with or without obtaining a degree) and visited coffee houses twice in the last month accepted about 66% of coupons.
+Single people who had attended college (with or without obtaining a degree) and visited coffee houses twice in the last month accepted about 66% of coupons.
 
 ##### Caveats
 As the specificity of these experiements increases, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
