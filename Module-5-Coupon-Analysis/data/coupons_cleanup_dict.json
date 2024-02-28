@@ -120,7 +120,7 @@
     "rename": "AtLeast25MinutesDriveToRedeem"
   },
   "direction_same": {
-    "rename": "CanRedeemOnTheWay"
+    "rename": "CanRedeemEnRoute"
   },
   "expiration": {
     "rename": "HoursToCouponExpiration",
