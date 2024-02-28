@@ -33,11 +33,11 @@ Single people who had attended college (with or without obtaining a degree) and 
 As the specificity of these experiements increases, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
 
 ### Who Didn't Accept Coupons to Coffee Houses?
-When people were headed home, and could not redeem the coupon on the way (to home), the acceptance rate was low at about 30% or less, for any relationship status. This suggests that when people are heading home, they are really don't want to turn around to use a coupon
+I found that when a driver's destination was home and they could not redeem the coupon rate on the way (the direction to the coffee house was not the same as the direction to home), the acceptance rate was low at about 30% or less, for any relationship status.
 
 ## Future Work
 The multi-variable analysis performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
 
-But a complete picture would also include multiple events per variable, such as *marital status is widowed* or *marital status is divorced*, and *education is some college* or *education is bachelor's degree*. A benefit in including such experiments is that there will be more experiements with larger sample sizes (e.g. they are more people that are either widowed or divorced than just widowed).
+But a complete picture would also include multiple events per variable, such as *marital status is widowed* or *marital status is divorced*, and *education is some college* or *education is bachelor's degree*. A benefit in including such experiments is that there will be more experiements with larger sample sizes (e.g. because there are more people that are either widowed or divorced than just widowed).
 
-The number of such experiments however (permutations) rapdily grows with the number of variables included as well as the number of events per variable, so a computationally efficient approach would be essential.
+However, the possible number of such experiments is quite large, so a computationally efficient approach would be essential.
