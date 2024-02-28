@@ -6,4 +6,5 @@ matplotlib
 scipy
 seaborn
 plotly
+plotly.express
 kaleido
