@@ -33,7 +33,8 @@ Single people who had attended college (with or without obtaining a degree) and 
 As the specificity of these experiements increases, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
 
 ### Who Didn't Accept Coupons to Coffee Houses?
-I found that when a driver's destination was home and they could not redeem the coupon rate on the way (the direction to the coffee house was not the same as the direction to home), the acceptance rate was low at about 30% or less, for any relationship status.
+##### By Driver's Destination, Marital Status, and Coupon Redeemable En Route
+When a driver's destination was home and they could not redeem the coupon en route, the acceptance rate was low at about 30% or less, for any relationship status.
 
 ## Future Work
 The multi-variable analysis performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
