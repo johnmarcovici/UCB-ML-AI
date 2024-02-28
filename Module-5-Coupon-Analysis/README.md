@@ -22,13 +22,15 @@ Inconclusive - acceptance rates over 50% were seen at both extrema as well as th
 I also performed a limited set of multi-variable analyses.
 
 ##### By Occupation and Number of Visits to Coffee Houses in the Last Month
-I found that healthcare workers who visited a coffee house 2 times in the last month accepted 90% of coupons, and those who visited 2 or 6 times accepted 92% of coupons.  
+- Healthcare workers who visited a coffee house 2 times in the last month accepted 90% of coupons
+- Healthcare workers who visited a coffee house 6 times in the last month accepted 100% of coupons
+- and those who visited 2 or 6 times accepted 92% of coupons  
 
 ##### By Education, Number of Visits to Coffee Houses in the Last Month, and Marital Status
 Another multi-variable experiment I considered was education, monthly coffee house visits, and marital status, and found that single people who had attended college (with or without obtaining a degree) and visited coffee houses twice in the last month accepted about 66% of coupons.
 
 ##### Caveats
-As the specificity of these experiements increases grows, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
+As the specificity of these experiements increases, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
 
 ### Who Didn't Accept Coupons to Coffee Houses?
 When people were headed home, and could not redeem the coupon on the way (to home), the acceptance rate was low at about 30% or less, for any relationship status. This suggests that when people are heading home, they are really don't want to turn around to use a coupon
