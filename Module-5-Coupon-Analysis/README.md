@@ -10,7 +10,7 @@ The notebook to run is ./coupon_acceptance_analysis.ipynb
 I looked at acceptance rates as a function of several single variables.
 
 ##### By Occupation
-The analysis showed that healthcare workers and those in buildings & maintenance accepted coffee coupons at a rate of 76%.
+Those with occupations of healthcare worker and buildings & maintenance accepted coffee coupons at a rate of 76%.
 
 ##### By Number of Visits to Coffee Houses in the Last Month
 People who visited 2 or more times on average accepted more than 60% of coupons, whereas people who reported 0 visits in the last month accepted only 34% of the time.
