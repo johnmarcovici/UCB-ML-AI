@@ -1,7 +1,7 @@
 jupyter
 pandas
 openpyxl
-sklearn # wheel error - need to replace per pip error
+scikit-learn
 matplotlib
 scipy
 seaborn
