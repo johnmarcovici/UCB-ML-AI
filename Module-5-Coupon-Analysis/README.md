@@ -1,19 +1,6 @@
 # Coupon Acceptance Analysis
 This module analyzes data provided in the data/coupons.csv file for trends in terms of who accepts and who does not accept coupons to a series of establishments. The data set addresses many establishment types (coffee houses, bars, restaurants) but I primarily focused on coffee houses.
 
-## Setup
-### What Version?
-I worked with python version 3.9.2
-
-### Create a virtual environment  
-```console
-python -m venv venv && source ./venv/bin/activate
-```
-
-### Install requirements  
-```console
-pip3 install -r requirements.txt
-```
 ## How to Run
 The notebook to run is ./coupon_acceptance_analysis.ipynb
 
