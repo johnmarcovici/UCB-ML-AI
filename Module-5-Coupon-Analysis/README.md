@@ -27,9 +27,12 @@ Other single-variable analyses were performed. For example, when looking at acce
 
 Looking at acceptance rate vs. average annual income revealed no consistent trend - acceptance rates over 50% were seen at both extrema as well as the center of the income scale.
 
-I also performed a limited set of multi-variable analysis, such as 
+I also performed a limited set of multi-variable analysis, such as
 
 ### Who Didn't Accepted Coupons to Coffee Houses?
+
+### Future Work
+The limited multi-variable analysis revealed the need for multi-outcome, multi-variable analysis. For example, instead of analyzing just "occupation is healthcare worker" and "visited a coffee house twice last month" we need to look at more complex outcomes, such as "occupation is healthcare worker or student or unemployed" and "visited a coffee house at least twice in the last month" and "age is between 20-40". To do so requires an update to the existing approach wherein multiple outcomes per categorical variable are considered.
 
 
 
