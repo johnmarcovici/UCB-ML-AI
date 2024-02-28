@@ -21,4 +21,4 @@ pip3 install -r requirements.txt
 To say hello
 
 ### [Module-5-Coupon-Analysis](Module-5-Coupon-Analysis)
-Analysis of rate of acceptance of coupons offered to various eating & drinking establishments
+Analysis of rate of acceptance of coupons offered for various eating & drinking establishments
