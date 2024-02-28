@@ -33,8 +33,13 @@ Single people who had attended college (with or without obtaining a degree) and 
 As the specificity of these experiements increases, the sample size per experiment drops. Some of the rates above were calculated over just 10 or 20 samples.
 
 ### Who Didn't Accept Coupons to Coffee Houses?
-##### Considering a Driver's Destination, Gender, Passengers in the Car, and if the Coupon is Redeemable En Route
+Considering a Driver's Destination, Gender, Passengers in the Car, and if the Coupon is Redeemable En Route
+
+#### Without Regard to Age
 Female drivers with no passengers in the car that were heading home or to work and could not redeem the coupon en route accepted only about 29% of the offered coupons
+
+#### Considering Drivers at Least 45 Years of Age
+Males or females aged 45 and up driving to work with no passengers that could not redeem the coupon en route accepted about 19% of the offered coupons
 
 ## Future Work
 The multi-variable analysis performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
