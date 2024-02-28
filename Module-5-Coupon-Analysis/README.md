@@ -2,7 +2,7 @@
 This module analyzes data provided by the *UCI Machine Learning* repository to understand who accepts coupons offered for various eating & drinking establishments. The data set includes coupon offerings for coffee houses, bars, and restaurants but I primarily focused on coffee houses.
 
 ## How to Run
-Run the Jupyter notebook called coupon_acceptance_analysis located [here](./coupon_acceptance_analysis.ipynb)
+Run the Jupyter notebook called coupon_acceptance_analysis.ipynb located [here](./coupon_acceptance_analysis.ipynb)
 
 ## Summary of Findings
 ### Who Accepted Coupons to Coffee Houses?
