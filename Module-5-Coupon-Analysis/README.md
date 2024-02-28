@@ -1,5 +1,5 @@
 # Coupon Acceptance Analysis
-This module analyzes data provided by the *UCI Machine Learning* repository for trends in terms of who accepts coupons offered to them for a set of eating & drinking establishments. The data set covers establishment types of coffee houses, bars, and restaurants but I primarily focused on coffee houses.
+This module analyzes data provided by the *UCI Machine Learning* repository to understand who accepts coupons offered to them for a set of eating & drinking establishments. The data set covers establishment types of coffee houses, bars, and restaurants but I primarily focused on coffee houses.
 
 ## How to Run
 The notebook to run is ./coupon_acceptance_analysis.ipynb
