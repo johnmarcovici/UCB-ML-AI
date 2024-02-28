@@ -16,5 +16,6 @@ python -m venv venv && source ./venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-## Module 5
+## Contents
+### Module 5
 Analysis of rate of acceptance of coupons offered to various eating & drinking establishments
