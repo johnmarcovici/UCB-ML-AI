@@ -23,8 +23,8 @@ I also performed a limited set of multi-variable analyses.
 
 ##### By Occupation and Number of Visits to Coffee Houses in the Last Month
 - Healthcare workers who visited a coffee house 2 times in the last month accepted 90% of coupons
-- Healthcare workers who visited a coffee house 6 times in the last month accepted 100% of coupons
-- and those who visited 2 or 6 times accepted 92% of coupons  
+- Those who visited 6 times accepted 100% of coupons
+- And those who visited 2 or 6 times accepted 92% of coupons  
 
 ##### By Education, Number of Visits to Coffee Houses in the Last Month, and Marital Status
 Another multi-variable experiment I considered was education, monthly coffee house visits, and marital status, and found that single people who had attended college (with or without obtaining a degree) and visited coffee houses twice in the last month accepted about 66% of coupons.
