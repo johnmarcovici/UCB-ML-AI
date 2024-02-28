@@ -7,17 +7,24 @@ The notebook to run is ./coupon_acceptance_analysis.ipynb
 ## Summary of Findings
 ### Who Accepted Coupons to Coffee Houses?
 #### Single-Variable Analyses
+I looked at acceptance rates as a function of several single variables at a time.
+
+##### By Occupation
 The analysis showed that healthcare workers and those in buildings & maintenance accepted coffee coupons at a rate of 76%.
 
-Other single-variable analyses were performed, such as
-- vs. the average number of visits to a coffee house
-- - People who visited 2 or more times on average accepted more than 60% of coupons
-- - Whereas people who reported 0 visits in the last month accepted only 34% of the time
-- vs. average annual income
-- - Revealed no consistent trend - acceptance rates over 50% were seen at both extrema as well as the center of the income scale
+##### By Number of Visits to Coffee Houses in the Last Month
+People who visited 2 or more times on average accepted more than 60% of coupons, whereas people who reported 0 visits in the last month accepted only 34% of the time.
+
+##### By Average Annual Income
+Inconclusive - acceptance rates over 50% were seen at both extrema as well as the center of the income scale.
 
 #### Multi-Variable Analyses
-I also performed a limited set of multi-variable analyses, such as combining both occupation and number of monthly visits to coffee houses. I found that healthcare workers who visited a coffee house 2 times in the last months accepted 90% of coupons, and those who visit 2 or 6 times accepted 92% of coupons. However, as the specificity of these experiments grows, the number of results over which this rate is computed necessarily drops. In this latter example just 36 records were considered, of which 92% accepted the coupon.
+I also performed a limited set of multi-variable analyses.
+
+##### By Occupation and Number of Visits to Coffee Houses in the Last Month
+I found that healthcare workers who visited a coffee house 2 times in the last months accepted 90% of coupons, and those who visit 2 or 6 times accepted 92% of coupons.  
+
+However, as the specificity of these experiments grows, the number of results over which this rate is computed necessarily drops. In this latter example just 36 records were considered, of which 92% accepted the coupon.
 
 Another multi-variable experiment I considered was education, monthly coffee house visits, and marital status, and found that single people who had attended college (with or without obtaining a degree) and visited coffee houses twice in the last month accepted about 66% of coupons.
 
