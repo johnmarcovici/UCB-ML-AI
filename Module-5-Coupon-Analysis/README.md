@@ -16,7 +16,7 @@ Those with occupations of healthcare worker and buildings & maintenance accepted
 People who visited 2 or more times on average accepted more than 60% of coupons, whereas people who reported 0 visits in the last month accepted only 34% of the time.
 
 ##### By Average Annual Income
-Inconclusive - acceptance rates over 50% were seen at both extrema as well as the center of the income scale.
+There is no clear relationshp to income - acceptance rates over 50% were seen at the income extrema as well as the center of the income scale.
 
 #### Multi-Variable Analyses
 I also performed a limited set of multi-variable analyses.
