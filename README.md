@@ -17,6 +17,4 @@ pip3 install -r requirements.txt
 ```
 
 ## Module 5
-Focuses on analysis of coupon acceptance rates, on a data set provided by UCI Machine Learning repository
-
-
+Analysis of rate of acceptance of coupons offered to various eating & drinking establishments
