@@ -2,12 +2,12 @@
 This module analyzes data provided by the *UCI Machine Learning* repository to understand who accepts coupons offered for various eating & drinking establishments. The data set includes coupon offerings for coffee houses, bars, and restaurants but I primarily focused on coffee houses.
 
 ## What to Run
-Run the Jupyter notebook called [coupon_acceptance_analysis.ipynb](./coupon_acceptance_analysis.ipynb).
+Run the  [coupon acceptance analysis](./coupon_acceptance_analysis.ipynb) Jupyter notebook.
 
 ## Summary of Findings
 ### Who Accepted Coupons to Coffee Houses?
 #### Single-Variable Analyses
-I looked at acceptance rates vs several single variables at a time.
+I looked at acceptance rates vs several single variables individually.
 
 ##### By Occupation
 Those with occupations of healthcare worker and buildings & maintenance accepted coffee coupons at a rate of 76%.
@@ -42,8 +42,8 @@ Female drivers with no passengers in the car that were heading home or to work a
 Males or females aged 45 and up driving to work with no passengers that could not redeem the coupon en route accepted only about 19% of the offered coupons
 
 ## Future Work
-The multi-variable analyses performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
+The multi-variable analyses performed thus far consider only single events per variable such as *marital status is widowed* and *education is some college*.
 
-A comprehensive analysis would include multiple events per variable, such as *marital status is widowed* or *marital status is divorced*, and *education is some college* or *education is bachelor's degree*.
+A comprehensive analysis would also include multiple events per variable, such as *marital status is widowed* or *marital status is divorced*, and *education is some college* or *education is bachelor's degree*.
 
 Because the number of such experiments is large, a computationally efficient approach would be essential.
