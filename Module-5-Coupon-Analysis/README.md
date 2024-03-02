@@ -42,8 +42,8 @@ Female drivers with no passengers in the car that were heading home or to work a
 Males or females aged 45 and up driving to work with no passengers that could not redeem the coupon en route accepted only about 19% of the offered coupons
 
 ## Future Work
-The multi-variable analysis performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
+The multi-variable analyses performed thus far considers only single events per variable such as *marital status is widowed* and *education is some college*.
 
-But a complete picture would also include multiple events per variable, such as *marital status is widowed* or *marital status is divorced*, and *education is some college* or *education is bachelor's degree*. A benefit in including such experiments is that there will be more experiements with larger sample sizes (e.g. because there are more people that are either widowed or divorced than just widowed).
+A comprehensive analysis would include multiple events per variable, such as *marital status is widowed* or *marital status is divorced*, and *education is some college* or *education is bachelor's degree*.
 
-However, the possible number of such experiments is quite large, so a computationally efficient approach would be essential.
+Because the number of such experiments is large, a computationally efficient approach would be essential.
