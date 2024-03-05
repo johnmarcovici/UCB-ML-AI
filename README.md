@@ -6,14 +6,9 @@ https://exec-ed.berkeley.edu/professional-certificate-in-machine-learning-and-ar
 ### Python Version
 I worked with python version 3.9.2
 
-### Create a virtual environment  
+### Create a virtual environment and install requirements  
 ```console
-python -m venv venv && source ./venv/bin/activate
-```
-
-### Install requirements  
-```console
-pip3 install -r requirements.txt
+python -m venv venv && source ./venv/bin/activate && pip3 install -r requirements.txt
 ```
 
 ## Contents
