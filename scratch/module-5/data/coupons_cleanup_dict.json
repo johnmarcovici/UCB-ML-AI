@@ -1,0 +1,133 @@
+{
+  "income": {
+    "rename": "AvgAnnualIncome",
+    "str.replace": [
+      [
+        "\\$"
+      ],
+      ""
+    ],
+    "replace": {
+      "Less than 12500": "0 - 12500",
+      "100000 or More": "100000 - 112500"
+    },
+    "apply": "range_to_mean"
+  },
+  "age": {
+    "replace": {
+      "50plus": "51",
+      "below21": "20"
+    },
+    "apply": "range_to_mean"
+  },
+  "destination": {
+    "replace": {
+      "No Urgent Place": "Nowhere"
+    }
+  },
+  "education": {
+    "str.replace": [
+      [
+        " degree",
+        " \\(Masters or Doctorate\\)",
+        " - no"
+      ],
+      ""
+    ],
+    "replace": {
+      "High School Graduate": "High School",
+      "Some college": "Some College"
+    }
+  },
+  "maritalStatus": {
+    "str.replace": [
+      [
+        " partner"
+      ],
+      ""
+    ],
+    "replace": {
+      "Unmarried": "Together"
+    }
+  },
+  "car": {
+    "drop": true
+  },
+  "direction_opp": {
+    "drop": true
+  },
+  "passanger": {
+    "rename": "passenger",
+    "str.replace": [
+      [
+        "\\(s\\)"
+      ],
+      ""
+    ],
+    "replace": {
+      "Alone": "None"
+    }
+  },
+  "coupon": {
+    "replace": {
+      "Restaurant(<20)": "RestaurantLessThan20",
+      "Carry out & Take away": "CarryAway",
+      "Restaurant(20-50)": "Restaurant20To50",
+      "Coffee House": "CoffeeHouse"
+    }
+  },
+  "Bar": {
+    "key": "frequency-of-visit",
+    "rename": "AvgMonthlyVisitsToBar"
+  },
+  "CoffeeHouse": {
+    "key": "frequency-of-visit",
+    "rename": "AvgMonthlyVisitsToCoffeeHouse"
+  },
+  "CarryAway": {
+    "key": "frequency-of-visit",
+    "rename": "AvgMonthlyVisitsToCarryAway"
+  },
+  "RestaurantLessThan20": {
+    "key": "frequency-of-visit",
+    "rename": "AvgMonthlyVisitsToRestaurantLessThan20"
+  },
+  "Restaurant20To50": {
+    "key": "frequency-of-visit",
+    "rename": "AvgMonthlyVisitsToRestaurant20To50"
+  },
+  "frequency-of-visit": {
+    "str.replace": [
+      [
+        "~"
+      ],
+      " - "
+    ],
+    "replace": {
+      "never": "0",
+      "less1": "0",
+      "gt8": "8"
+    },
+    "apply": "range_to_mean"
+  },
+  "toCoupon_GEQ5min": {
+    "rename": "AtLeast5MinutesDriveToRedeem"
+  },
+  "toCoupon_GEQ15min": {
+    "rename": "AtLeast15MinutesDriveToRedeem"
+  },
+  "toCoupon_GEQ25min": {
+    "rename": "AtLeast25MinutesDriveToRedeem"
+  },
+  "direction_same": {
+    "rename": "CanRedeemOnTheWay"
+  },
+  "expiration": {
+    "rename": "HoursToCouponExpiration",
+    "replace": {
+      "1d": "24",
+      "2h": "2"
+    },
+    "apply": "range_to_mean"
+  }
+}
