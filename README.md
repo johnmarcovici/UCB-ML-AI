@@ -12,6 +12,9 @@ python -m venv venv && source ./venv/bin/activate && pip3 install -r requirement
 ```
 
 ## Contents
+### [scratch](scratch)
+Per-module weekly scratch (development) notebooks
+
 ### [hello-ucb-cohort](hello-ucb-cohort)
 To say hello
 
