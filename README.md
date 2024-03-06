@@ -12,11 +12,13 @@ python -m venv venv && source ./venv/bin/activate && pip3 install -r requirement
 ```
 
 ## Contents
-### [scratch](scratch)
+### Submissions
+#### [Module-5-Coupon-Analysis](Module-5-Coupon-Analysis)
+Analysis of rate of acceptance of coupons offered for various eating & drinking establishments
+
+### Other
+#### [scratch](scratch)
 Per-module weekly scratch (development) notebooks
 
-### [hello-ucb-cohort](hello-ucb-cohort)
+#### [hello-ucb-cohort](hello-ucb-cohort)
 To say hello
-
-### [Module-5-Coupon-Analysis](Module-5-Coupon-Analysis)
-Analysis of rate of acceptance of coupons offered for various eating & drinking establishments
