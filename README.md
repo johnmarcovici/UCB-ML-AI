@@ -17,8 +17,8 @@ python -m venv venv && source ./venv/bin/activate && pip3 install -r requirement
 Analysis of rate of acceptance of coupons offered for various eating & drinking establishments
 
 ### Other
-#### [scratch](scratch)
-Per-module weekly scratch (development) notebooks
+#### [modules](modules)
+Per-module weekly development notebooks
 
 #### [hello-ucb-cohort](hello-ucb-cohort)
 To say hello
