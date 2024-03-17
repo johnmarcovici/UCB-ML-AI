@@ -8,7 +8,7 @@ I worked with python version 3.9.2
 
 ### Create a virtual environment and install requirements  
 ```console
-python -m venv venv && source ./venv/bin/activate && pip3 install -r requirements.txt
+python3 -m venv venv && source ./venv/bin/activate && pip3 install -r requirements.txt
 ```
 
 ## Contents
