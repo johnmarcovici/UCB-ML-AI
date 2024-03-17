@@ -19,6 +19,3 @@ Analysis of rate of acceptance of coupons offered for various eating & drinking 
 ### Other
 #### [modules](modules)
 Per-module weekly development notebooks
-
-#### [hello-ucb-cohort](hello-ucb-cohort)
-To say hello
