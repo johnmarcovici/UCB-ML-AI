@@ -12,10 +12,8 @@ python3 -m venv venv && source ./venv/bin/activate && pip3 install -r requiremen
 ```
 
 ## Contents
-### Submissions
-#### [Module-5-Coupon-Analysis](Module-5-Coupon-Analysis)
-Analysis of rate of acceptance of coupons offered for various eating & drinking establishments
+### [submissions](submissions)
+Formal submissions for the periodic weeklong assignments
 
-### Other
-#### [modules](modules)
+### [modules](modules)
 Per-module weekly development notebooks
