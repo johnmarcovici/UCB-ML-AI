@@ -8,5 +8,6 @@ To obtain such a model we started with a large, publicly available [data set](./
 The overall process was done according to the CRISP-DM framework, which we believe afforded two critical benefits. For us, the practicioner, the framework provided a guided development process, which steps and checklists along the way, while being general enough that we could adapt as needed. For the client, the use of the framework meant we could describe up front how we planned to do the work, and then communicate our work along the way according to this structure. Given how complicated data mining can get, it should also comfort the client to know we are following a *process*.
 
 # Results and Key Findings
+To help guide the modeling process, we derived a requirement for the model to predict within **$3,000**, on average, of the correct sale price. The modeling thus far did not meet this requirement. The best performance seen thus far has been **$3,150**, so although we failed to meet the requirement, we got pretty close. The client can use this requirement to build in sufficient margin per transaction such that they obtain profitable sales.
 
 # Next Steps and Recommendations
