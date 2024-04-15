@@ -2,7 +2,7 @@
 
 A client set of used car dealerships has requested a model to predict the probable sale price of a car. Their stated purpose for obtaining such a model was to *fine tune their inventory* which we interpret to mean make more efficient transactions per vehicle, ultimately leading to a more profitable enterprise.
 
-To obtain such a model we started with a large, publicly available [data set](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) from Kaggle on used car transactions that stretches back decades. A sample of this data set is here:
+To obtain such a model we started with a large, publicly available [data set](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) from Kaggle on used car transactions that stretches back decades. Each record in this data set includes a vehicle's make, model, year, mileage, quality, and sale price, a few examples of which are shown here:
 
 |id        |region                 |price|year  |manufacturer|model                |condition|cylinders  |fuel  |odometer|title_status|transmission|VIN              |drive|size     |type  |paint_color|state|
 |----------|-----------------------|-----|------|------------|---------------------|---------|-----------|------|--------|------------|------------|-----------------|-----|---------|------|-----------|-----|
@@ -12,7 +12,7 @@ To obtain such a model we started with a large, publicly available [data set](ht
 |7303413468|rochester              |9900 |2017.0|ford        |focus titanium       |excellent|4 cylinders|gas   |26850.0 |salvage     |automatic   |1FADP3J22HL281300|fwd  |compact  |sedan |black      |mn   |
 |7315499219|brownsville            |12350|2007.0|gmc         |sierra sle 1500      |like new |8 cylinders|gas   |167000.0|clean       |automatic   |1GCECT24LKJH73951|rwd  |full-size|pickup|white      |tx   |
 
-Each record in this data set includes a vehicle's make, model, year, mileage, quality, and sale price. From this data set, we built several models and assessed their quality relative to a derived requirement.
+From this data set, we built several models and assessed their quality relative to a derived requirement.
 
 # Approach
 The overall process was done according to the CRISP-DM framework, which we believe afforded two critical benefits. For us, the practicioner, the framework provided a guided development process, which steps and checklists along the way, while being general enough that we could adapt as needed. For the client, the use of the framework meant we could describe up front how we planned to do the work, and then communicate our work along the way according to this structure. Given how complicated data mining can get, it should also comfort the client to know we are following a *process*.
