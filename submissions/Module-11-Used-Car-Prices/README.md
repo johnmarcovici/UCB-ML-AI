@@ -2,7 +2,7 @@
 
 A client set of used car dealerships has requested a model to predict the probable sale price of a car. Their stated purpose for obtaining such a model was to *fine tune their inventory* which we interpret to mean make more efficient transactions per vehicle, ultimately leading to a more profitable enterprise.
 
-To obtain such a model we started with a large, publicly available [data set](./data/vehicles_no_nulls_shuffled_top_100.csv) from Kaggle on used car transactions that stretches back decades. A sample of this data set is here:
+To obtain such a model we started with a large, publicly available [data set](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) from Kaggle on used car transactions that stretches back decades. A sample of this data set is here:
 
 |id        |region                 |price|year  |manufacturer|model                |condition|cylinders  |fuel  |odometer|title_status|transmission|VIN              |drive|size     |type  |paint_color|state|
 |----------|-----------------------|-----|------|------------|---------------------|---------|-----------|------|--------|------------|------------|-----------------|-----|---------|------|-----------|-----|
