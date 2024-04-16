@@ -20,4 +20,6 @@ The overall process was done according to the CRISP-DM framework, which we belie
 # Results and Key Findings
 To help guide the modeling process, we derived a requirement for the model to predict within **$3,000**, on average, of the correct sale price. The modeling thus far did not meet this requirement. The best performance seen thus far has been **$3,150**, so although we failed to meet the requirement, we got pretty close. The client can use this requirement to build in sufficient margin per transaction such that they obtain profitable sales.
 
+The modeling showed that the 3 most important features in predicting price are the vehicle's year, odometer, and what type of fuel (gas, diesel, electric, etc...). Also important, but to a lesser extent, are the vehicle's type and manufacturer. If a dealer can only obtain just a few features per vehicle, these are the ones to prioritize.
+
 # Next Steps and Recommendations
