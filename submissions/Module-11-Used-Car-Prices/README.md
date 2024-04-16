@@ -1,5 +1,7 @@
-# Introduction
+# Used Car Prices
+This module analyzes used car pricing data obtained from Craigslist vehicle sales. The original data set, which I think is [this one from Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), was tailored for the students and provided directly as a csv file.
 
+# Introduction
 A client set of used car dealerships has requested a model to predict the probable sale price of a car. Their stated purpose for obtaining such a model was to *fine tune their inventory* which we interpret to mean make more efficient transactions per vehicle, ultimately leading to a more profitable enterprise.
 
 To obtain such a model we started with a large, publicly available [data set](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) from Kaggle on used car transactions that stretches back decades. Each record in this data set includes a vehicle's make, model, year, mileage, quality, and sale price, a few examples of which are shown here:
