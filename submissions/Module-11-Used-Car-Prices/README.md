@@ -3,8 +3,6 @@ This module analyzes used-car pricing data obtained from Craigslist vehicle sale
 
 The prompt was a hypothetical scenario where a used-car dealership wants to "fine tune their inventory", and to do so wants a model to predict a vehicle's eventual sales price. The specifics of the fine-tuning the client desires are left unstated and open to interpretation, perhaps to emulate the very realistic scenario where a client wants *something*, but doesn't know exactly what.
 
-**--->>> As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car. <<<---**
-
 The prompt also required that the modeling is to be done according to the CRISP-DM framework, a standardized process for data mining.
 
 What follows is the last step of the framework - the deployment of the model - to the client in the form of a report.
@@ -26,9 +24,15 @@ From this data set, we built several models and assessed their quality relative 
 The overall process was done according to the CRISP-DM framework, which we believe afforded two critical benefits. For us, the practicioner, the framework provided a guided development process, with steps and checklists along the way. For the client, the use of the framework meant we could describe up front how we planned to do the work, and then communicate our work along the way according to this structure. Given how complicated data mining can get, it should also comfort the client to know we are following a *process*.
 
 ## Results and Key Findings
+
+**--->>> As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car. <<<---**
+
 The modeling thus far did not meet the derived requirement. The best performance seen thus far has been **$3,150**, so although we failed to meet the requirement, we got pretty close. The client can use the performance against this requirement to build in sufficient margin per transaction such that they obtain profitable sales.
 
-The modeling showed that the 3 most important features are the vehicle's year, odometer, and what type of fuel (gas, diesel, electric, etc...). Also important, but to a lesser extent, are the vehicle's type and manufacturer. **WHAT IS IMPORTANT, AS IN NEW / OLD, low mileage, high mileage, etc...**
+The modeling showed that the 3 most important features are the vehicle's year, odometer, and what type of fuel (gas, diesel, electric, etc...). Also important, but to a lesser extent, are the vehicle's type and manufacturer.
+
+**WHAT IS IMPORTANT, AS IN NEW / OLD, low mileage, high mileage, etc...
+Need to respin this entire section refocused on the above prompt.**
 
 The least important feature was paint color, among those tested. Some features were left out of the modeling entirely, including the VIN, region, and sales ID, which is of course specific to each transaction.
 
