@@ -1,5 +1,7 @@
 # Used Car Prices
-This module analyzes used car pricing data obtained from Craigslist vehicle sales. The original data set, which I think is [this one from Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), was tailored for the students and provided directly as a csv file.
+This module analyzes used-car pricing data obtained from Craigslist vehicle sales. The original data set, which I think is [this one from Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), was reduced for the students and provided directly as a csv file. The prompt was a hypothetical scenario where a used-car dealership ("the client") wanted to improve their business, and to do so wanted to be able to predict vehicle price. Therefore the task was to develop a regression model with vehicle price as the target, and to do so under the auspices of the CRISP-DM framework. The prompt was then both to develop a useful prediction model, and to do so within (and demonstrate facility with) the framework.
+
+What follows is the last step of the framework - the deployment - of the model to the client in the form of a report. The tense reads as if being written to and for this client.
 
 # Introduction
 A client set of used car dealerships has requested a model to predict the probable sale price of a car. Their stated purpose for obtaining such a model was to *fine tune their inventory* which we interpret to mean make more efficient transactions per vehicle, ultimately leading to a more profitable enterprise.
