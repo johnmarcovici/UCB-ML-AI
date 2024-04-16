@@ -1,7 +1,11 @@
 # Used Car Prices
-This module analyzes used-car pricing data obtained from Craigslist vehicle sales. The original data set, which I think is [this one from Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), was reduced for the students and provided directly as a csv file. The prompt was a hypothetical scenario where a used-car dealership ("the client") wanted to improve their business, and to do so wanted to be able to predict vehicle price. Therefore the task was to develop a regression model with vehicle price as the target, and to do so under the auspices of the CRISP-DM framework. The prompt was then both to develop a useful prediction model, and to do so within (and demonstrate facility with) the framework.
+This module analyzes used-car pricing data obtained from Craigslist vehicle sales. The original data set, which I think is [this one from Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), was reduced for the students and provided as a csv file. 
 
-What follows is the last step of the framework - the deployment - of the model to the client in the form of a report. The tense reads as if being written to and for this client.
+The prompt was a hypothetical scenario where a used-car dealership ("the client") wants to "fine tune their inventory", and to do so wants to be able predict a vehicle's eventual sales price. The specifics of the *fine-tuning* the client desires are left unstated and open to interpretation, presumably to encourage student creativity and perhaps to emulate the very realistic scenario where a client wants something, but doesn't know exactly what or how.
+
+The prompt also required that the modeling was to be done according to the CRISP-DM framework, a standardized process for data mining.
+
+What follows is the last step of the framework - the deployment - of the model to the client in the form of a report. The tense reads as if being written to this client.
 
 # Introduction
 A client set of used car dealerships has requested a model to predict the probable sale price of a car. Their stated purpose for obtaining such a model was to *fine tune their inventory* which we interpret to mean make more efficient transactions per vehicle, ultimately leading to a more profitable enterprise.
