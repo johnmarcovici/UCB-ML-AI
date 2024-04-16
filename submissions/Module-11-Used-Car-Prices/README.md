@@ -24,4 +24,6 @@ The modeling showed that the 3 most important features in predicting price are t
 
 The least important feature was paint color, among those tested. Some features were left out of the modeling entirely, including the VIN, region, and sales ID, which is of course specific to each transaction.
 
+Two features that have obvious importance in the real world but showed up as unimportant, in terms of the model's accuracy, are title status and condition. The reason for these due to their exceedingly narrow consituency of mostly clean status, and mostly excellent, good, or like new condition.
+
 # Next Steps and Recommendations
