@@ -28,11 +28,9 @@ The overall process was done according to the CRISP-DM framework, which we belie
 ## Results and Key Findings
 The modeling thus far did not meet the derived requirement. The best performance seen thus far has been **$3,150**, so although we failed to meet the requirement, we got pretty close. The client can use the performance against this requirement to build in sufficient margin per transaction such that they obtain profitable sales.
 
-The modeling showed that the 3 most important features in predicting price are the vehicle's year, odometer, and what type of fuel (gas, diesel, electric, etc...). Also important, but to a lesser extent, are the vehicle's type and manufacturer. If a dealer can only obtain just a few features per vehicle, these are the ones to prioritize.
+The modeling showed that the 3 most important features are the vehicle's year, odometer, and what type of fuel (gas, diesel, electric, etc...). Also important, but to a lesser extent, are the vehicle's type and manufacturer. **WHAT IS IMPORTANT, AS IN NEW / OLD, low mileage, high mileage, etc...**
 
 The least important feature was paint color, among those tested. Some features were left out of the modeling entirely, including the VIN, region, and sales ID, which is of course specific to each transaction.
-
-Two features that have obvious importance in the real world but showed up as unimportant, in terms of the model's coefficients, are title status and condition. The reason these appeared unimportant is because the data set is composed mostly of vehicles with clean title status and vehicles in excellent, good, or like new condition, rendering these features effectively constants.
 
 ## Next Steps and Recommendations
 The next step is to go over these findings with the candidate dealers and understand the suitability of the requirement, and more importantly, the model's performance against it. It might be good enough as is, or it may need additional refinement, in terms of either the model's performance against the requirement, or the requirement itself.
