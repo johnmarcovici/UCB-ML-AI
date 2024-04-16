@@ -22,4 +22,6 @@ To help guide the modeling process, we derived a requirement for the model to pr
 
 The modeling showed that the 3 most important features in predicting price are the vehicle's year, odometer, and what type of fuel (gas, diesel, electric, etc...). Also important, but to a lesser extent, are the vehicle's type and manufacturer. If a dealer can only obtain just a few features per vehicle, these are the ones to prioritize.
 
+The least important feature was paint color, among those tested. Some features were left out of the modeling entirely, including the VIN, region, and sales ID, which is of course specific to each transaction.
+
 # Next Steps and Recommendations
