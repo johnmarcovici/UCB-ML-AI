@@ -3,6 +3,8 @@ This module analyzes used-car pricing data obtained from Craigslist vehicle sale
 
 The prompt was a hypothetical scenario where a used-car dealership wants to "fine tune their inventory", and to do so wants a model to predict a vehicle's eventual sales price. The specifics of the fine-tuning the client desires are left unstated and open to interpretation, perhaps to emulate the very realistic scenario where a client wants *something*, but doesn't know exactly what.
 
+**--->>> As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car. <<<---**
+
 The prompt also required that the modeling is to be done according to the CRISP-DM framework, a standardized process for data mining.
 
 What follows is the last step of the framework - the deployment of the model - to the client in the form of a report.
