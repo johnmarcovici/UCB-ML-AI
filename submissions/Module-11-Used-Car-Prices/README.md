@@ -27,4 +27,4 @@ The least important feature was paint color, among those tested. Some features w
 Two features that have obvious importance in the real world but showed up as unimportant, in terms of the model's accuracy, are title status and condition. The reason for these due to their exceedingly narrow consituency of mostly clean status, and mostly excellent, good, or like new condition.
 
 # Next Steps and Recommendations
-The next step is to go over these findings with the candidate dealers and understand the suitability of the requirement, and more importantly, the model's performance against it. it might be good enough as is, or it may need additional refinement, in terms of either the model's performance against the requirement, or the requriement itself.
+The next step is to go over these findings with the candidate dealers and understand the suitability of the requirement, and more importantly, the model's performance against it. It might be good enough as is, or it may need additional refinement, in terms of either the model's performance against the requirement, or the requriement itself.
