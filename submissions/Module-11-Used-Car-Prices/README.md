@@ -7,6 +7,8 @@ The prompt also required that the modeling is to be done according to the CRISP-
 
 What follows is the last step of the framework - the deployment of the model - to the client in the form of a report.
 
+The modeling and analysis is done in [this notebook](./used_car_prices.ipynb).
+
 ## Introduction
 A client set of used car dealerships has requested a model to predict the probable sale price of a car. To obtain such a model we started with a large, publicly available data set on used car-transactions. Each record in this data set includes a vehicle's make, model, year, mileage, quality, and sale price, a few examples of which are shown here:
 
