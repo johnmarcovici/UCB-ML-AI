@@ -7,8 +7,6 @@ This module analyzes used-car pricing data obtained from Craigslist vehicle sale
 |7303413468|rochester              |9900 |2017.0|ford        |focus titanium       |excellent|4 cylinders|gas   |26850.0 |salvage     |automatic   |1FADP3J22HL281300|fwd  |compact  |sedan |black      |mn   |
 |7315499219|brownsville            |12350|2007.0|gmc         |sierra sle 1500      |like new |8 cylinders|gas   |167000.0|clean       |automatic   |1GCECT24LKJH73951|rwd  |full-size|pickup|white      |tx   |
 
-The prompt was a hypothetical scenario where a used-car dealership wants to fine-tune their inventory, and to do so wants a model to predict a vehicle's eventual sales price.
-
-The prompt also required that the modeling is to be done according to the CRISP-DM framework, a standardized process for data mining.
+The prompt was a hypothetical scenario where a used-car dealership wants to fine-tune their inventory, and to do so wants a model to predict a vehicle's eventual sales price. The prompt also required that the modeling be done according to the CRISP-DM framework, a standardized process for data mining.
 
 The modeling and analysis is done in [this notebook](./used_car_prices.ipynb) and follows the framework through the high-level steps, ending with a short report for the clients.
