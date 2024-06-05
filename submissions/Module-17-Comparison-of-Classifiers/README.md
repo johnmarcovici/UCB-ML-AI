@@ -5,7 +5,7 @@ This module compares 4 common classifiers for binary classification
 - Logistic Regression
 - Support Vector Machines
 
-on a sample data set provided. The data set is from a direct-marketing campaign carried out on behalf of a bank, with the objective to get customers to sign up for a long-term bank deposit. The target feature - yes or no - indicated whether or not a customer that received one or more phone calls from a bank representative signed up for the deposit. The stated purpose of the study that led to the data collection was to be able to continue to carry out direct marking campaigns but require fewer contacts per customer, while maintaining the same rate of subscriptin (saying yes) to the offered product.
+on a sample data set provided. The data set is from a direct-marketing campaign carried out on behalf of a bank, with the objective to get customers to sign up for a long-term bank deposit. The target feature - yes or no - indicated whether or not a customer that received one or more phone calls from a bank representative signed up for the deposit. The stated purpose of the study that led to the data collection was to be able to continue to carry out direct marking campaigns but require fewer contacts per customer, while maintaining the same rate of subscription (saying yes) to the offered product.
 
 The modeling and analysis is done in [this notebook](./practical_application_3.ipynb).
 
@@ -23,4 +23,16 @@ Lastly, these same 4 classifiers are subject to a hyperparameter search using gr
 
 
 ## Findings
+The KNN classifier was computationally prohibitive. Although it was fast to fit, its prediction stage took so long that it needed to be interrupted (stopped). On smaller subsets of the data, I found it was on par performance wise with other classifiers, not notably better or worse, so its poor performance meant it was OK to stop using it anymore.
 
+The logistic and SVC classifiers got about the same performance, but the SVC was dramatically slower to fit than the logistic regression. On this data set, if these were the only 2 classifiers available, the logistic regression would be the better choice, because it was much faster to operate.
+
+The decision tree got the best overall performance and was also the fastest to fit and score, achieving a balanced accuracy of 74% over the test set. I used balanced accuracy, not accuracy, as the target scoring function to optimize over because the data set was highly imbalanced.
+
+## Future Work
+### Feature Engineering
+- In the past target encoding worked much better than one-hot encoding, but I did not use it here, and so would like to
+- I dropped the feature `pdays` because the bulk of it - 96% - was invalid, but it would be better to verify that it has no utility before dropping it
+
+### Feature Selection
+To speed up the processing, a subset of the most important (in terms of permutation importance) features were selected for hyperparamter estimation, but the feature selection was based on the logistic regression estimator. It would be better to repeat this feature selection for the each classifier, thereby letting each classifier determine its most important features, rather than impose they all use the results from logistic regression.
