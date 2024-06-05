@@ -23,7 +23,7 @@ Lastly, these same 4 classifiers are subject to a hyperparameter search using gr
 
 
 ## Findings
-The KNN classifier was computationally prohibitive. Although it was fast to fit, its prediction stage took so long that it needed to be interrupted (stopped). On smaller subsets of the data, I found it was on par performance wise with other classifiers, not notably better or worse, so its poor performance meant it was OK to stop using it anymore.
+The KNN classifier was computationally prohibitive on the full data set. Although it was fast to fit, its prediction stage took so long that it needed to be interrupted (stopped). On smaller subsets of the data, I found it was on par performance wise with other classifiers, not notably better or worse.
 
 The logistic and SVC classifiers got about the same performance, but the SVC was dramatically slower to fit than the logistic regression. On this data set, if these were the only 2 classifiers available, the logistic regression would be the better choice, because it was much faster to operate.
 
@@ -36,3 +36,6 @@ The decision tree got the best overall performance and was also the fastest to f
 
 ### Feature Selection
 To speed up the processing, a subset of the most important (in terms of permutation importance) features were selected for hyperparamter estimation, but the feature selection was based on the logistic regression estimator. It would be better to repeat this feature selection for the each classifier, thereby letting each classifier determine its most important features, rather than impose they all use the results from logistic regression.
+
+### Hyperparameter Search
+The range of values over which I searched can be expanded, especially over the chosen classifier - decision tree - to see if the performance can be further improved.
