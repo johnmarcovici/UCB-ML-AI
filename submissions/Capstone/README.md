@@ -17,7 +17,7 @@ Data sets were downloaded from the "Download Sample" button on the [first-rate d
 and for the S&P 500 from [Market Watch](https://www.marketwatch.com/investing/index/spx/download-data?startDate=4/8/2024&endDate=07/05/2024).
 
 ## What to Run
-The writeup is [in this notebook](./stock_market_analysis.ipynb).
+The writeup is [in this notebook](./stock_market_analysis_chipped.ipynb).
 
 ## Findings
 
