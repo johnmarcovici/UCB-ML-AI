@@ -10,7 +10,7 @@ Formal submissions for the periodic weeklong assignments
 Per-module weekly development notebooks
 
 ## Environment
-I worked with codespaces integrated in github and captured my setup below.
+I worked with codespaces as integrated in github, and captured my setup below.
 
 ### Kernel
 #### Pre-Installed Kernels
