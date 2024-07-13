@@ -14,8 +14,8 @@ I worked with codespaces integrated in github and captured my setup below.
 
 ### Kernel
 #### Pre-Installed Kernels
-Rather than use a virtual environment, select a pre-installed Python kernel  
-- This has many common dependencies already installed
+Select a pre-installed Python kernel  
+- This has common dependencies already installed
 - From the upper right, select Kernel, then choose the available python install in ~/.python
 
 #### Virtual Environment
@@ -24,7 +24,10 @@ If you need more control over the environment, such as to install more dependenc
 - Choose Command Palette
 - Enter Python Create Environment
 - Choose a python binary
-- Accept prompt to install requirements
+- Accept prompt to install requirements (if you have a local requirements.txt file)
+
+### Extensions and Settings
+The following are the extensions and settings I prefer. If you sign in to codespaces, they will be preserved when you build a new codespace.
 
 ### Extensions
 Black formatter
