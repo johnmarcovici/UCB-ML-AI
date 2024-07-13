@@ -1,9 +1,0 @@
-jupyter
-pandas
-openpyxl
-scikit-learn
-matplotlib
-scipy
-seaborn
-plotly.express
-kaleido
