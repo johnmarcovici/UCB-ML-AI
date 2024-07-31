@@ -32,7 +32,7 @@ A total of 3 neural-network models were considered, and the target feature was r
 #### Data Preparation
 For the NN models, the data set used was the S&P 500 index from the last 6 years, approximately July 2018 to July 2024
 - The data set was split into 80% training and 20% test
-- The data was then arranged into overlaping windows of 6 days of training and 1 day as the target feature
+- The data was then arranged into overlapping windows of 6 days of training and 1 day as the target feature
 - The data was log-transformed and scaled to a range of 0, 1 for presentation to the NN models
 
 #### Basic NN
@@ -42,8 +42,28 @@ To form a baseline for comparison for the remaining NN models, a basic NN was de
 
 #### Simple RNN
 A simple RNN was developed with
-- 
+- a hidden RNN layer with 16 units and tanh activation
+- 1 output layer with no activation
 
 #### LSTM
+Lastly, an LSTM was developed with
+- a hidden layer with 8 units and exponential activation
+- 1 output layer with no activation
+
+Each of these NN models were assessed for average error during the training and test periods, with the average error defined as the average of the percentage of error comparing the regression value to its target. The LSTM was the strongest performer of these three models, with an average error in test of -0.3%, compared to almost 3% for the RNN
+- The error is defined as y_true - y_estimated, so a negative error means the estimate is higher than the true value, on average
+
+Additionally, confusion matrices were computed for each model
+- Although the model did not output a classification, the regression value was used to decide to buy or not to buy
+    - Positive expected gains are interpreted as a buy signal
+
+Lastly, the effective trading gain per model was calculated
+- The effective gain is defined as the difference between the active trading gain and the passively invested gain
+    - The active gain is what arises from using the above rule to trade (if gain is predicted then buy) with respect to a fixed investment per trade of $100
+    - The passively invested gain is computed the return from $100 if invested on day 1 of the test period and sold on the final day
+- All 3 NN models exhibited negative effective trading gain
+    - While both the basic NN and RNN exhibited positive active gain, the passive gain was larger, so the effective gain was negative
+    - Meanwhile, the LSTM model exhibited both a negative active gain and a negative passive gain
+- So despite the complexity of these models, they were on average worse than simply passively investing
 
 ## Future Work
