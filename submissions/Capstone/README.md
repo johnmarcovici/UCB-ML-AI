@@ -67,3 +67,19 @@ Lastly, the effective trading gain per model was calculated
 - So despite the complexity of these models, they were on average worse than simply passively investing
 
 ## Future Work
+Several additional items need consideration in future work
+- The tax rate was not accounted for
+    - Because the trades modeled are 1-day trades, any gains would be subject to short-term capital gains tax
+    - Which would further erode the performance
+    - Meantime, the passively invested amount would be subject to long-term capital gains, which is lower than short term
+    - So in total the performance of the above models would be even worse than described
+- More complex NN models can be considered
+    - With more layers or more neurons per layer
+- More generally, a hyperparameter search can be performed
+    - For the decision tree models, a search could identify trees that were not so overfit
+    - For the NN models, hyperparameters to consider include activation functions, number of layers and units (neurons) per layer, regularization and dropout, etc...
+    - For all models, the training window ("chip") size can also be searched (only 7 days were considered)
+- Classifiers other than decision trees and random forests can be considered
+- For the NN models, the derivative should also be considered
+    - The derivative of the stock price was used in the decision tree models, but not the NN
+- A moving average can be applied to the stock price to smooth out noisy and non-meaningul oscillations
